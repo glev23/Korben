@@ -1,0 +1,113 @@
+.registr{
+    background: url(../img/Mask.png)right no-repeat,url(../img/Mask2.png)left no-repeat;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form{
+    width: 625px;
+    height: 740px;
+    border: 9px dashed #CC00FF;
+    border-radius: 10%;
+}
+
+.form_text{
+    text-align: center;
+    margin-top: 52px;
+    font-family: 'Roboto' sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.form_phone{
+    height: 85px;
+    width: 545px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 36px;
+    padding: 25px 272px 29px 27px;
+    font-family: 'Roboto' sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+}
+
+.form_password{
+    position: relative;
+    height: 85px;
+    width: 545px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 36px;
+    padding: 25px 272px 29px 27px;
+    font-family: 'Roboto' sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+}
+
+.eyes{
+    position: absolute;
+    background-color: white;
+    border: 0;
+    margin-left: 300px;
+}
+
+.yes_btn{
+    background-color: white;
+    border: 0;
+    margin-left: 410px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.pomn{
+    font-family: 'Roboto' sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.vxod{
+    display: block;
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 352px;
+    height: 84px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #CC00FF;
+    color: white;
+    font-family: 'Roboto' sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+}
+
+.registr_btn{
+    border: 0;
+    background-color: white;
+    font-family: 'Roboto' sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 51px;
+    text-decoration: underline;
+    text-decoration-color: #CC00FF;
+}
+
+.password_btn{
+    border: 0;
+    background-color: white;
+    font-family: 'Roboto' sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 220px;
+    margin-top: 50px;
+    text-decoration: underline;
+    text-decoration-color: #CC00FF;
+}
